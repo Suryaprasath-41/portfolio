@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="API Security Review Agent">
+  <defs>
+    <linearGradient id="bg4" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#1a1a1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg4)"/>
+  <!-- shield -->
+  <g transform="translate(330 100)">
+    <path d="M70 0 L140 25 L140 130 C140 200 70 260 70 260 C70 260 0 200 0 130 L0 25 Z" fill="#5fc9c2" opacity=".15" stroke="#5fc9c2" stroke-width="2"/>
+    <text x="70" y="140" font-family="JetBrains Mono, monospace" font-size="48" fill="#5fc9c2" text-anchor="middle" font-weight="700">API</text>
+  </g>
+  <!-- findings -->
+  <g font-family="JetBrains Mono, monospace" font-size="11">
+    <rect x="80" y="380" width="200" height="22" fill="#c1573a" opacity=".25" stroke="#c1573a"/>
+    <text x="90" y="395" fill="#f6f3ec">CRIT · BOLA · /users/{id}</text>
+    <rect x="300" y="380" width="200" height="22" fill="#f5b454" opacity=".25" stroke="#f5b454"/>
+    <text x="310" y="395" fill="#f6f3ec">HIGH · missing rate limit</text>
+    <rect x="520" y="380" width="200" height="22" fill="#5fc9c2" opacity=".25" stroke="#5fc9c2"/>
+    <text x="530" y="395" fill="#f6f3ec">INFO · schema ✓ ok</text>
+  </g>
+  <text x="40" y="60" font-family="JetBrains Mono, monospace" font-size="11" fill="#5fc9c2" letter-spacing="3">PROJECT · 04</text>
+  <text x="40" y="470" font-family="Fraunces, serif" font-size="32" fill="#f6f3ec" font-style="italic">API Security Review · Agent</text>
+</svg>

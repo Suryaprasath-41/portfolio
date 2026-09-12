@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Online Voting System">
+  <defs>
+    <linearGradient id="bg1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#1a1a1d"/>
+    </linearGradient>
+    <pattern id="grid1" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#f5b454" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg1)"/>
+  <rect width="800" height="500" fill="url(#grid1)"/>
+  <!-- Ballot box -->
+  <g transform="translate(220 180)">
+    <rect x="0" y="40" width="360" height="220" fill="#f6f3ec" rx="4"/>
+    <rect x="0" y="40" width="360" height="22" fill="#15151a"/>
+    <rect x="150" y="0" width="60" height="40" fill="#f5b454"/>
+    <text x="180" y="28" font-family="JetBrains Mono, monospace" font-size="14" fill="#0b0b0d" text-anchor="middle" font-weight="700">VOTE</text>
+    <!-- ballot slot -->
+    <rect x="170" y="20" width="20" height="6" fill="#0b0b0d" opacity=".6"/>
+    <!-- lines -->
+    <line x1="30" y1="100" x2="330" y2="100" stroke="#1a1a1d" stroke-opacity=".25"/>
+    <line x1="30" y1="140" x2="330" y2="140" stroke="#1a1a1d" stroke-opacity=".25"/>
+    <line x1="30" y1="180" x2="330" y2="180" stroke="#1a1a1d" stroke-opacity=".25"/>
+    <!-- ticks -->
+    <g fill="#5fc9c2">
+      <rect x="30" y="92" width="14" height="14"/>
+      <rect x="30" y="132" width="14" height="14"/>
+      <rect x="30" y="172" width="14" height="14"/>
+    </g>
+    <text x="60" y="104" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1d">cand_01</text>
+    <text x="60" y="144" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1d">cand_02</text>
+    <text x="60" y="184" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1d">cand_03</text>
+    <text x="200" y="104" font-family="JetBrains Mono, monospace" font-size="11" fill="#c1573a" font-weight="700">42.1%</text>
+    <text x="200" y="144" font-family="JetBrains Mono, monospace" font-size="11" fill="#c1573a" font-weight="700">31.5%</text>
+    <text x="200" y="184" font-family="JetBrains Mono, monospace" font-size="11" fill="#c1573a" font-weight="700">26.4%</text>
+  </g>
+  <text x="40" y="60" font-family="JetBrains Mono, monospace" font-size="11" fill="#f5b454" letter-spacing="3">PROJECT · 01</text>
+  <text x="40" y="470" font-family="Fraunces, serif" font-size="34" fill="#f6f3ec" font-style="italic">Online Voting System</text>
+</svg>
