@@ -651,7 +651,7 @@ function ProjectModal({
                   >
                     <span
                       className="w-1.5 h-1.5 rounded-full mt-1.5 shrink-0"
-                      style={{ background: a.color || accentMap[project.accent].bar }}
+                      style={{ background: accentMap[project.accent].bar }}
                     />
                     {a}
                   </li>
