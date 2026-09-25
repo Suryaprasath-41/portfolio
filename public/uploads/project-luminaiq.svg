@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Luminaiq">
+  <defs>
+    <radialGradient id="bg9" cx=".5" cy=".5" r=".7">
+      <stop offset="0" stop-color="#15151a"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg9)"/>
+  <!-- brain network -->
+  <g stroke="#5fc9c2" stroke-opacity=".5" stroke-width="1" fill="none">
+    <line x1="180" y1="200" x2="320" y2="140"/>
+    <line x1="180" y1="200" x2="320" y2="280"/>
+    <line x1="180" y1="200" x2="320" y2="380"/>
+    <line x1="320" y1="140" x2="500" y2="200"/>
+    <line x1="320" y1="280" x2="500" y2="200"/>
+    <line x1="320" y1="280" x2="500" y2="380"/>
+    <line x1="320" y1="380" x2="500" y2="380"/>
+    <line x1="500" y1="200" x2="640" y2="260"/>
+    <line x1="500" y1="380" x2="640" y2="260"/>
+  </g>
+  <g fill="#5fc9c2">
+    <circle cx="180" cy="200" r="12"/>
+    <circle cx="320" cy="140" r="10"/>
+    <circle cx="320" cy="280" r="14"/>
+    <circle cx="320" cy="380" r="10"/>
+    <circle cx="500" cy="200" r="12"/>
+    <circle cx="500" cy="380" r="10"/>
+    <circle cx="640" cy="260" r="14" fill="#f5b454"/>
+  </g>
+  <text x="40" y="60" font-family="JetBrains Mono, monospace" font-size="11" fill="#5fc9c2" letter-spacing="3">PROJECT · 09</text>
+  <text x="40" y="470" font-family="Fraunces, serif" font-size="36" fill="#f6f3ec" font-style="italic">Luminaiq</text>
+</svg>
